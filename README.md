@@ -47,7 +47,7 @@ All of this happens **autonomously** — no human intervention required.
 |---|---|
 | **Event** | RIFT 2026 — AI/ML Track |
 | **Challenge** | Autonomous CI/CD Healing Agent |
-| **Team Name** | CodeX |
+| **Team Name** | Ace |
 | **Team Leader** | Yash Dhudat |
 | **Branch Format** | `TEAM_LEADER_AI_Fix` |
 | **Max Score** | 110 / 110 |
@@ -375,3 +375,4 @@ bashcd "C:\Users\Death Note\rift-cicd-agent"
 git add README.md
 git commit -m "Add premium README for RIFT 2026 submission"
 git push origin main
+
