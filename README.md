@@ -1,3 +1,4 @@
+<div align="center">
 
 # 🤖 CI/CD HEALING AGENT
 ### RIFT 2026 — AI/ML Track Submission
@@ -13,7 +14,7 @@
 
 **Autonomous multi-agent system that detects, fixes, commits, and verifies bugs in GitHub repositories — fully automated, end-to-end.**
 
-[🚀 Live Demo](#) • [📹 Demo Video](#) • [📖 Documentation](#architecture) • [⚡ Quick Start](#quick-start)
+[🚀 Live Demo](https://rift-cicd-agent.vercel.app) • [📹 Demo Video](https://drive.google.com/file/d/1JdcVOh2mgPWFWZ_vDF6DqW21qD4FyDOK/view?usp=sharing) • [📖 Documentation](#architecture) • [⚡ Quick Start](#quick-start)
 
 <br/>
 
@@ -39,6 +40,16 @@ All of this happens **autonomously** — no human intervention required.
 
 ---
 
+## 🔗 Important Links
+
+| Resource | Link |
+|---|---|
+| 🚀 **Live Dashboard** | https://rift-cicd-agent.vercel.app |
+| 🎥 **Demo Video** | https://drive.google.com/file/d/1JdcVOh2mgPWFWZ_vDF6DqW21qD4FyDOK/view?usp=sharing |
+| 💻 **GitHub Repo** | https://github.com/yashdhudat/rift-cicd-agent |
+
+---
+
 ## 🏆 Hackathon Details
 
 | Field | Details |
@@ -47,6 +58,7 @@ All of this happens **autonomously** — no human intervention required.
 | **Challenge** | Autonomous CI/CD Healing Agent |
 | **Team Name** | Ace |
 | **Team Leader** | Yash Dhudat |
+| **Team Member** | Abhinay Tambe |
 | **Branch Format** | `TEAM_LEADER_AI_Fix` |
 | **Max Score** | 110 / 110 |
 
@@ -285,7 +297,7 @@ WS /ws/agent            — Real-time streaming connection
 ```json
 {
   "repo_url": "https://github.com/user/repo",
-  "team_name": "CodeX",
+  "team_name": "Ace",
   "leader_name": "Yash Dhudat"
 }
 ```
@@ -305,9 +317,9 @@ Auto-generated after every run:
 ```json
 {
   "repo": "https://github.com/user/broken-repo",
-  "team": "CodeX",
+  "team": "Ace",
   "leader": "Yash Dhudat",
-  "branch": "CODEX_YASH_DHUDAT_AI_Fix",
+  "branch": "ACE_YASH_DHUDAT_AI_Fix",
   "totalFailures": 4,
   "totalFixes": 4,
   "ciStatus": "PASSED",
@@ -341,13 +353,23 @@ Auto-generated after every run:
 
 ---
 
+## ⚠️ Known Limitations
+
+- Free tier LLM APIs (Groq) have daily rate limits
+- Complex multi-file logic bugs may need multiple iterations
+- JavaScript support limited to basic linting checks
+- Backend requires local Python environment to run
+
+---
+
 ## 🤝 Team
 
 | Name | Role |
 |---|---|
 | **Yash Dhudat** | Team Leader — Full Stack + AI Integration |
+| **Abhinay Tambe** | Team Member — Backend + Agent Architecture |
 
-**Team:** CodeX
+**Team:** Ace
 **Event:** RIFT 2026 — AI/ML Track
 
 ---
@@ -362,16 +384,16 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 **Built with ❤️ for RIFT 2026**
 
-![RIFT 2026](https://img.shields.io/badge/RIFT_2026-AI%2FML_Track-06b6d4?style=for-the-badge&labelColor=0a0f18)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-rift--cicd--agent.vercel.app-06b6d4?style=for-the-badge&labelColor=0a0f18)](https://rift-cicd-agent.vercel.app)
+
+[![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Watch_Now-ef4444?style=for-the-badge&labelColor=0a0f18)](https://drive.google.com/file/d/1JdcVOh2mgPWFWZ_vDF6DqW21qD4FyDOK/view?usp=sharing)
 
 *AUTONOMOUS DETECT → FIX → VERIFY → DEPLOY*
 
 </div>
 
-Now push it to GitHub:
+Now push it:
 bashcd "C:\Users\Death Note\rift-cicd-agent"
 git add README.md
-git commit -m "Add premium README for RIFT 2026 submission"
+git commit -m "Update README - add live links, video, team member Abhinay Tambe"
 git push origin main
-
-
